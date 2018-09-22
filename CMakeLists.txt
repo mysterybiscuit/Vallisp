@@ -3,4 +3,4 @@ project(Vallisp C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Vallisp main.c)
+add_executable(Vallisp main.c mpc.c mpc.h)
